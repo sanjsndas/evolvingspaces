@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Evolving Spaces Daily</title>
+    <meta name="description" content="Privacy Policy for Evolving Spaces Daily. Learn how we collect, use, and protect your personal information.">
+    <meta name="author" content="Evolving Spaces Editorial">
+    <link rel="canonical" href="https://www.evolvingspacesdaily.com/privacy.html">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Privacy Policy — Evolving Spaces Daily">
+    <meta property="og:description" content="How we handle your data at Evolving Spaces Daily.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.evolvingspacesdaily.com/privacy.html">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1200&h=630&fit=crop">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        /* ----- reset & base (same as main) ----- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        :root {
+            --ink: #1e1e1e;
+            --ink-soft: #3a3a3a;
+            --paper: #fbf9f7;
+            --paper-warm: #f5f1ec;
+            --border: #e2ddd7;
+            --accent: #9b6b4b;
+            --accent-soft: #c9ad96;
+            --serif: 'Playfair Display', Georgia, serif;
+            --sans: 'Inter', -apple-system, Helvetica, Arial, sans-serif;
+        }
+        body {
+            background: var(--paper);
+            color: var(--ink);
+            font-family: var(--sans);
+            font-size: 1rem;
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 2px;
+        }
+        a {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.15s;
+        }
+        a:hover {
+            color: var(--accent);
+        }
+        .container {
+            max-width: 1240px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        /* ----- typography ----- */
+        h1, h2, h3, h4 {
+            font-family: var(--serif);
+            font-weight: 600;
+            line-height: 1.25;
+            letter-spacing: -0.01em;
+            color: var(--ink);
+        }
+        h1 {
+            font-size: 2.8rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            line-height: 1.15;
+        }
+        h2 {
+            font-size: 1.9rem;
+            margin-bottom: 0.75rem;
+        }
+        h3 {
+            font-size: 1.4rem;
+            margin-bottom: 0.5rem;
+        }
+        h4 {
+            font-size: 1.1rem;
+            font-family: var(--sans);
+            font-weight: 600;
+            letter-spacing: 0.02em;
+        }
+        p {
+            margin-bottom: 1.25rem;
+            color: var(--ink-soft);
+        }
+        .meta {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: #8b7e74;
+            font-weight: 500;
+        }
+        .category-tag {
+            display: inline-block;
+            background: var(--paper-warm);
+            padding: 4px 12px;
+            border-radius: 30px;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-weight: 600;
+            color: var(--accent);
+            border: 1px solid var(--border);
+        }
+        /* ----- header (identical) ----- */
+        .site-header {
+            padding: 28px 0 20px;
+            border-bottom: 1px solid var(--border);
+            background: var(--paper);
+        }
+        .header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .logo {
+            font-family: var(--serif);
+            font-size: 1.9rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: var(--ink);
+            line-height: 1.1;
+        }
+        .logo span {
+            font-style: italic;
+            font-weight: 400;
+            color: var(--accent);
+        }
+        .logo small {
+            display: block;
+            font-family: var(--sans);
+            font-size: 0.7rem;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            color: #8b7e74;
+            font-weight: 400;
+            margin-top: 2px;
+        }
+        .main-nav ul {
+            display: flex;
+            gap: 28px;
+            list-style: none;
+            font-size: 0.85rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+        }
+        .main-nav a {
+            color: var(--ink-soft);
+            padding-bottom: 4px;
+            border-bottom: 2px solid transparent;
+        }
+        .main-nav a:hover,
+        .main-nav a.active {
+            color: var(--ink);
+            border-bottom-color: var(--accent);
+        }
+        /* ----- search bar ----- */
+        .search-bar {
+            display: flex;
+            align-items: center;
+            background: var(--paper-warm);
+            border-radius: 40px;
+            padding: 4px 4px 4px 20px;
+            border: 1px solid var(--border);
+            min-width: 240px;
+        }
+        .search-bar input {
+            border: none;
+            background: transparent;
+            padding: 8px 0;
+            font-family: var(--sans);
+            font-size: 0.85rem;
+            outline: none;
+            width: 100%;
+            color: var(--ink);
+        }
+        .search-bar button {
+            background: var(--ink);
+            color: #fff;
+            border: none;
+            border-radius: 40px;
+            padding: 8px 16px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.04em;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .search-bar button:hover {
+            background: var(--accent);
+        }
+        /* ----- page specific: privacy ----- */
+        .privacy-hero {
+            padding: 48px 0 20px;
+            border-bottom: 1px solid var(--border);
+        }
+        .privacy-hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 8px;
+        }
+        .privacy-hero .last-updated {
+            font-size: 0.9rem;
+            color: #8b7e74;
+            font-style: italic;
+            margin-top: 6px;
+        }
+        .privacy-content {
+            padding: 48px 0 56px;
+            max-width: 860px;
+        }
+        .privacy-content h2 {
+            font-size: 1.7rem;
+            margin-top: 2.2rem;
+            margin-bottom: 0.8rem;
+            padding-bottom: 6px;
+            border-bottom: 1px solid var(--border);
+        }
+        .privacy-content h2:first-of-type {
+            margin-top: 0;
+        }
+        .privacy-content h3 {
+            font-size: 1.25rem;
+            margin-top: 1.8rem;
+            margin-bottom: 0.5rem;
+            font-family: var(--sans);
+            font-weight: 600;
+            color: var(--ink);
+        }
+        .privacy-content p {
+            margin-bottom: 1.2rem;
+        }
+        .privacy-content ul, .privacy-content ol {
+            margin-bottom: 1.5rem;
+            padding-left: 1.8rem;
+            color: var(--ink-soft);
+        }
+        .privacy-content li {
+            margin-bottom: 0.5rem;
+        }
+        .privacy-content .highlight-box {
+            background: var(--paper-warm);
+            border-left: 4px solid var(--accent);
+            padding: 22px 28px;
+            margin: 28px 0;
+            border-radius: 0 4px 4px 0;
+            font-size: 0.98rem;
+        }
+        .privacy-content .highlight-box p:last-child {
+            margin-bottom: 0;
+        }
+        .privacy-content a {
+            color: var(--accent);
+            font-weight: 500;
+            text-decoration: underline;
+            text-underline-offset: 2px;
+        }
+        .privacy-content a:hover {
+            color: var(--ink);
+        }
+        /* ----- info sections footer (same) ----- */
+        .info-sections {
+            border-top: 1px solid var(--border);
+            padding: 48px 0 40px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 32px;
+            font-size: 0.85rem;
+        }
+        .info-sections h5 {
+            font-family: var(--sans);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            font-size: 0.75rem;
+            color: var(--ink);
+            margin-bottom: 16px;
+        }
+        .info-sections p, .info-sections a {
+            color: #5a524b;
+            line-height: 1.6;
+            display: block;
+            margin-bottom: 8px;
+        }
+        .info-sections a:hover {
+            color: var(--accent);
+        }
+        /* ----- footer ----- */
+        .site-footer {
+            border-top: 1px solid var(--border);
+            padding: 36px 0 28px;
+            font-size: 0.8rem;
+            color: #7a7068;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .footer-links {
+            display: flex;
+            gap: 28px;
+            list-style: none;
+        }
+        /* ----- responsive ----- */
+        @media (max-width: 1024px) {
+            .info-sections {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.1rem;
+            }
+            h2 {
+                font-size: 1.6rem;
+            }
+            .header-inner {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .main-nav ul {
+                flex-wrap: wrap;
+                gap: 14px;
+                font-size: 0.78rem;
+            }
+            .search-bar {
+                min-width: 100%;
+            }
+            .info-sections {
+                grid-template-columns: 1fr;
+                gap: 28px;
+            }
+            .privacy-content h2 {
+                font-size: 1.5rem;
+            }
+        }
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 18px;
+            }
+            .privacy-hero h1 {
+                font-size: 1.9rem;
+            }
+            .privacy-content .highlight-box {
+                padding: 18px 20px;
+            }
+        }
+        /* utility */
+        .hidden {
+            display: none !important;
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo" aria-label="Evolving Spaces Daily home">
+                Evolving Spaces <span>Daily</span>
+                <small>Interior · Architecture · Living</small>
+            </a>
+            <nav class="main-nav" aria-label="Primary">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="terms.html">Terms Of Privacy</a></li>
+                    <li><a href="privacy.html" class="active">Privacy Policy</a></li>
+                    <li><a href="cookies.html">Cookies Policy</a></li>
+                    <li><a href="disclaimer.html">Disclaimer</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search articles, topics…" aria-label="Search articles">
+                <button id="searchBtn" aria-label="Search">Search</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Privacy hero -->
+        <section class="privacy-hero">
+            <h1>Privacy Policy</h1>
+            <p class="last-updated">Last updated: 15 March 2025</p>
+            <p style="max-width:720px; margin-top:10px;">Your privacy matters to us. This policy explains what information we collect, how we use it, and the choices you have. We keep things simple and transparent — no jargon, no surprises.</p>
+        </section>
+
+        <!-- Privacy content -->
+        <div class="privacy-content">
+            <div class="highlight-box">
+                <p><strong>In short:</strong> We collect only what we need to run the site, we never sell your personal data, and you can ask us to delete your information at any time. If you have questions, just <a href="contact.html">contact us</a>.</p>
+            </div>
+
+            <h2>1. Who we are</h2>
+            <p>Evolving Spaces Daily ("we", "us", "our") is an independent editorial publication covering interior design, architecture, and living. Our registered address is 47 Design Quarter, Studio 12, London, EC1V 9BX, United Kingdom. We are the data controller responsible for your personal information collected through <a href="index.html">evolvingspacesdaily.com</a> (the "Site").</p>
+
+            <h2>2. Information we collect</h2>
+            <p>We collect information in three ways: information you give us, information collected automatically, and information from third parties.</p>
+
+            <h3>2.1 Information you give us</h3>
+            <ul>
+                <li><strong>Contact forms:</strong> When you use our <a href="contact.html">contact form</a> or email us, we receive your name, email address, and the content of your message.</li>
+                <li><strong>Newsletter sign-ups:</strong> If you subscribe to our newsletter, we collect your email address and, optionally, your first name.</li>
+                <li><strong>Comments & contributions:</strong> If you leave a comment or submit a pitch, we collect the information you provide in that submission.</li>
+            </ul>
+
+            <h3>2.2 Information collected automatically</h3>
+            <p>Like most websites, we use cookies and similar technologies to understand how people use the Site. This may include your IP address, browser type, device information, pages visited, and referring URLs. For full details, please see our <a href="cookies.html">Cookies Policy</a>.</p>
+
+            <h3>2.3 Information from third parties</h3>
+            <p>We may receive limited data from analytics providers (such as aggregated visitor statistics) and social media platforms if you interact with our content there. We do not purchase personal data from data brokers.</p>
+
+            <h2>3. How we use your information</h2>
+            <p>We use your information only for the following purposes:</p>
+            <ul>
+                <li><strong>To respond to your inquiries:</strong> When you contact us, we use your details to reply and manage the conversation.</li>
+                <li><strong>To send our newsletter:</strong> If you opt in, we use your email address to send you editorial updates. You can unsubscribe at any time via the link in every email.</li>
+                <li><strong>To improve the Site:</strong> We analyse anonymised usage data to understand which articles resonate and how we can make the Site better.</li>
+                <li><strong>To maintain security:</strong> We monitor for fraudulent or malicious activity to protect our readers and our platform.</li>
+                <li><strong>To comply with legal obligations:</strong> In rare cases, we may need to process data to meet legal or regulatory requirements.</li>
+            </ul>
+
+            <h2>4. Legal basis for processing (GDPR)</h2>
+            <p>If you are in the European Economic Area (EEA) or the UK, we process your personal data under the following legal bases:</p>
+            <ul>
+                <li><strong>Consent:</strong> For newsletter subscriptions and non-essential cookies. You can withdraw consent at any time.</li>
+                <li><strong>Legitimate interests:</strong> For responding to inquiries, improving the Site, and ensuring security — always balanced against your rights.</li>
+                <li><strong>Contract:</strong> If we enter into an agreement with you (for example, a freelance contribution).</li>
+                <li><strong>Legal obligation:</strong> Where we are required to retain or disclose information by law.</li>
+            </ul>
+
+            <h2>5. Sharing your information</h2>
+            <p>We do <strong>not</strong> sell, rent, or trade your personal information. We may share it only in these limited circumstances:</p>
+            <ul>
+                <li><strong>Service providers:</strong> Trusted third parties who help us operate the Site (e.g., email delivery, analytics, hosting). They only access data necessary to perform their function and are bound by confidentiality agreements.</li>
+                <li><strong>Legal requirements:</strong> If required by law, court order, or governmental authority, we may disclose information — but we will always strive to notify you unless legally prohibited.</li>
+                <li><strong>Business transfers:</strong> In the unlikely event of a merger or acquisition, your data may be transferred as part of the assets. We will notify you before any such transfer and ensure your privacy rights continue to be protected.</li>
+            </ul>
+
+            <h2>6. International data transfers</h2>
+            <p>Our servers are located in the UK and the EEA. Some of our service providers may be based outside these regions (for example, in the United States). When we transfer data internationally, we use appropriate safeguards such as Standard Contractual Clauses approved by the European Commission to ensure your data remains protected.</p>
+
+            <h2>7. Data retention</h2>
+            <p>We keep your personal information only as long as necessary for the purposes described in this policy:</p>
+            <ul>
+                <li><strong>Contact inquiries:</strong> Retained for up to 24 months after our last correspondence, unless you ask us to delete them sooner.</li>
+                <li><strong>Newsletter subscriptions:</strong> Retained until you unsubscribe, after which we keep a minimal suppression record to honour your request.</li>
+                <li><strong>Analytics data:</strong> Retained in aggregated, anonymised form indefinitely; raw IP addresses are anonymised after 14 months.</li>
+            </ul>
+
+            <h2>8. Your rights</h2>
+            <p>Depending on your location, you may have the following rights regarding your personal data:</p>
+            <ul>
+                <li><strong>Access:</strong> Request a copy of the data we hold about you.</li>
+                <li><strong>Rectification:</strong> Ask us to correct inaccurate or incomplete information.</li>
+                <li><strong>Erasure:</strong> Request deletion of your data ("right to be forgotten").</li>
+                <li><strong>Restriction:</strong> Ask us to limit how we use your data.</li>
+                <li><strong>Portability:</strong> Receive your data in a structured, machine-readable format.</li>
+                <li><strong>Objection:</strong> Object to processing based on legitimate interests.</li>
+                <li><strong>Withdraw consent:</strong> Where processing is based on consent, you may withdraw it at any time.</li>
+            </ul>
+            <p>To exercise any of these rights, please <a href="contact.html">contact us</a> or email <a href="mailto:privacy@evolvingspacesdaily.com">privacy@evolvingspacesdaily.com</a>. We will respond within 30 days. You also have the right to lodge a complaint with your local data protection authority (in the UK, the Information Commissioner's Office).</p>
+
+            <h2>9. Cookies and tracking</h2>
+            <p>We use essential cookies to make the Site work, and optional analytics cookies to understand how it's used. You can manage your cookie preferences at any time through your browser settings. For a detailed breakdown, please read our <a href="cookies.html">Cookies Policy</a>.</p>
+
+            <h2>10. Security</h2>
+            <p>We take reasonable technical and organisational measures to protect your personal data — including encryption, access controls, and regular security reviews. However, no method of transmission over the internet is completely secure, and we cannot guarantee absolute security.</p>
+
+            <h2>11. Children's privacy</h2>
+            <p>Our Site is not directed at children under 16, and we do not knowingly collect personal information from them. If you believe a child has provided us with personal data, please contact us so we can delete it.</p>
+
+            <h2>12. Changes to this policy</h2>
+            <p>We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements. When we do, we will revise the "last updated" date at the top of this page. We encourage you to review this page periodically. Material changes will be announced via a notice on the Site or, where appropriate, by email.</p>
+
+            <h2>13. Contact us</h2>
+            <p>If you have any questions, concerns, or requests regarding this Privacy Policy or your personal data, please reach out:</p>
+            <ul>
+                <li>Email: <a href="mailto:privacy@evolvingspacesdaily.com">privacy@evolvingspacesdaily.com</a></li>
+                <li>Post: Evolving Spaces Daily, 47 Design Quarter, Studio 12, London, EC1V 9BX, United Kingdom</li>
+                <li>Or use our <a href="contact.html">contact form</a>.</li>
+            </ul>
+            <p style="margin-top: 30px; font-style: italic; color: #8b7e74;">Thank you for trusting Evolving Spaces Daily. We're committed to protecting your privacy while bringing you stories that inspire better living.</p>
+        </div>
+
+        <!-- Info sections (same as home) -->
+        <section class="info-sections" aria-label="Site information">
+            <div>
+                <h5>About</h5>
+                <p>Evolving Spaces Daily is an independent publication covering interior design, architecture, and the ideas that shape how we live. Founded in 2021.</p>
+            </div>
+            <div>
+                <h5>Contact</h5>
+                <p><a href="mailto:editor@evolvingspacesdaily.com">editor@evolvingspacesdaily.com</a></p>
+                <p>Pitch us: <a href="mailto:pitch@evolvingspacesdaily.com">pitch@evolvingspacesdaily.com</a></p>
+            </div>
+            <div>
+                <h5>Privacy & Terms</h5>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Use</a>
+                <a href="cookies.html">Cookie Policy</a>
+            </div>
+            <div>
+                <h5>Follow</h5>
+                <a href="#">Instagram</a>
+                <a href="#">Pinterest</a>
+                <a href="#">Newsletter</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer container">
+        <span>© 2025 Evolving Spaces Daily. All rights reserved.</span>
+        <ul class="footer-links">
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="terms.html">Terms</a></li>
+            <li><a href="cookies.html">Cookies</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </footer>
+
+    <script>
+        (function() {
+            // ---------- Search bar (same behaviour) ----------
+            const searchInput = document.getElementById('searchInput');
+            const searchBtn = document.getElementById('searchBtn');
+            if (searchBtn && searchInput) {
+                searchBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const q = searchInput.value.trim();
+                    if (q) {
+                        alert('Search for: "' + q + '" — (demo only, search is active on the home page)');
+                    } else {
+                        alert('Please enter a search term.');
+                    }
+                });
+                searchInput.addEventListener('keyup', function(e) {
+                    if (e.key === 'Enter') {
+                        e.preventDefault();
+                        searchBtn.click();
+                    }
+                });
+            }
+        })();
+    </script>
+</body>
+</html>

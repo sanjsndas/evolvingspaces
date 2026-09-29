@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies Policy — Evolving Spaces Daily</title>
+    <meta name="description" content="Cookies Policy for Evolving Spaces Daily. Learn how we use cookies and similar technologies on our website.">
+    <meta name="author" content="Evolving Spaces Editorial">
+    <link rel="canonical" href="https://www.evolvingspacesdaily.com/cookies.html">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Cookies Policy — Evolving Spaces Daily">
+    <meta property="og:description" content="How we use cookies and similar technologies on Evolving Spaces Daily.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.evolvingspacesdaily.com/cookies.html">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1200&h=630&fit=crop">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        /* ----- reset & base (same as main) ----- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        :root {
+            --ink: #1e1e1e;
+            --ink-soft: #3a3a3a;
+            --paper: #fbf9f7;
+            --paper-warm: #f5f1ec;
+            --border: #e2ddd7;
+            --accent: #9b6b4b;
+            --accent-soft: #c9ad96;
+            --serif: 'Playfair Display', Georgia, serif;
+            --sans: 'Inter', -apple-system, Helvetica, Arial, sans-serif;
+        }
+        body {
+            background: var(--paper);
+            color: var(--ink);
+            font-family: var(--sans);
+            font-size: 1rem;
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 2px;
+        }
+        a {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.15s;
+        }
+        a:hover {
+            color: var(--accent);
+        }
+        .container {
+            max-width: 1240px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        /* ----- typography ----- */
+        h1, h2, h3, h4 {
+            font-family: var(--serif);
+            font-weight: 600;
+            line-height: 1.25;
+            letter-spacing: -0.01em;
+            color: var(--ink);
+        }
+        h1 {
+            font-size: 2.8rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            line-height: 1.15;
+        }
+        h2 {
+            font-size: 1.9rem;
+            margin-bottom: 0.75rem;
+        }
+        h3 {
+            font-size: 1.4rem;
+            margin-bottom: 0.5rem;
+        }
+        h4 {
+            font-size: 1.1rem;
+            font-family: var(--sans);
+            font-weight: 600;
+            letter-spacing: 0.02em;
+        }
+        p {
+            margin-bottom: 1.25rem;
+            color: var(--ink-soft);
+        }
+        .meta {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: #8b7e74;
+            font-weight: 500;
+        }
+        .category-tag {
+            display: inline-block;
+            background: var(--paper-warm);
+            padding: 4px 12px;
+            border-radius: 30px;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-weight: 600;
+            color: var(--accent);
+            border: 1px solid var(--border);
+        }
+        /* ----- header (identical) ----- */
+        .site-header {
+            padding: 28px 0 20px;
+            border-bottom: 1px solid var(--border);
+            background: var(--paper);
+        }
+        .header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .logo {
+            font-family: var(--serif);
+            font-size: 1.9rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: var(--ink);
+            line-height: 1.1;
+        }
+        .logo span {
+            font-style: italic;
+            font-weight: 400;
+            color: var(--accent);
+        }
+        .logo small {
+            display: block;
+            font-family: var(--sans);
+            font-size: 0.7rem;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            color: #8b7e74;
+            font-weight: 400;
+            margin-top: 2px;
+        }
+        .main-nav ul {
+            display: flex;
+            gap: 28px;
+            list-style: none;
+            font-size: 0.85rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+        }
+        .main-nav a {
+            color: var(--ink-soft);
+            padding-bottom: 4px;
+            border-bottom: 2px solid transparent;
+        }
+        .main-nav a:hover,
+        .main-nav a.active {
+            color: var(--ink);
+            border-bottom-color: var(--accent);
+        }
+        /* ----- search bar ----- */
+        .search-bar {
+            display: flex;
+            align-items: center;
+            background: var(--paper-warm);
+            border-radius: 40px;
+            padding: 4px 4px 4px 20px;
+            border: 1px solid var(--border);
+            min-width: 240px;
+        }
+        .search-bar input {
+            border: none;
+            background: transparent;
+            padding: 8px 0;
+            font-family: var(--sans);
+            font-size: 0.85rem;
+            outline: none;
+            width: 100%;
+            color: var(--ink);
+        }
+        .search-bar button {
+            background: var(--ink);
+            color: #fff;
+            border: none;
+            border-radius: 40px;
+            padding: 8px 16px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.04em;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .search-bar button:hover {
+            background: var(--accent);
+        }
+        /* ----- page specific: cookies ----- */
+        .cookies-hero {
+            padding: 48px 0 20px;
+            border-bottom: 1px solid var(--border);
+        }
+        .cookies-hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 8px;
+        }
+        .cookies-hero .last-updated {
+            font-size: 0.9rem;
+            color: #8b7e74;
+            font-style: italic;
+            margin-top: 6px;
+        }
+        .cookies-content {
+            padding: 48px 0 56px;
+            max-width: 860px;
+        }
+        .cookies-content h2 {
+            font-size: 1.7rem;
+            margin-top: 2.2rem;
+            margin-bottom: 0.8rem;
+            padding-bottom: 6px;
+            border-bottom: 1px solid var(--border);
+        }
+        .cookies-content h2:first-of-type {
+            margin-top: 0;
+        }
+        .cookies-content h3 {
+            font-size: 1.25rem;
+            margin-top: 1.8rem;
+            margin-bottom: 0.5rem;
+            font-family: var(--sans);
+            font-weight: 600;
+            color: var(--ink);
+        }
+        .cookies-content p {
+            margin-bottom: 1.2rem;
+        }
+        .cookies-content ul, .cookies-content ol {
+            margin-bottom: 1.5rem;
+            padding-left: 1.8rem;
+            color: var(--ink-soft);
+        }
+        .cookies-content li {
+            margin-bottom: 0.5rem;
+        }
+        .cookies-content .highlight-box {
+            background: var(--paper-warm);
+            border-left: 4px solid var(--accent);
+            padding: 22px 28px;
+            margin: 28px 0;
+            border-radius: 0 4px 4px 0;
+            font-size: 0.98rem;
+        }
+        .cookies-content .highlight-box p:last-child {
+            margin-bottom: 0;
+        }
+        .cookies-content a {
+            color: var(--accent);
+            font-weight: 500;
+            text-decoration: underline;
+            text-underline-offset: 2px;
+        }
+        .cookies-content a:hover {
+            color: var(--ink);
+        }
+        /* cookie table (simple) */
+        .cookie-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0 30px;
+            font-size: 0.88rem;
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        .cookie-table th {
+            background: var(--paper-warm);
+            color: var(--ink);
+            font-weight: 600;
+            text-align: left;
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+        }
+        .cookie-table td {
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--border);
+            color: var(--ink-soft);
+            vertical-align: top;
+        }
+        .cookie-table tr:last-child td {
+            border-bottom: none;
+        }
+        .cookie-table .cookie-name {
+            font-weight: 600;
+            color: var(--ink);
+            font-family: monospace;
+            font-size: 0.85rem;
+        }
+        /* ----- info sections footer (same) ----- */
+        .info-sections {
+            border-top: 1px solid var(--border);
+            padding: 48px 0 40px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 32px;
+            font-size: 0.85rem;
+        }
+        .info-sections h5 {
+            font-family: var(--sans);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            font-size: 0.75rem;
+            color: var(--ink);
+            margin-bottom: 16px;
+        }
+        .info-sections p, .info-sections a {
+            color: #5a524b;
+            line-height: 1.6;
+            display: block;
+            margin-bottom: 8px;
+        }
+        .info-sections a:hover {
+            color: var(--accent);
+        }
+        /* ----- footer ----- */
+        .site-footer {
+            border-top: 1px solid var(--border);
+            padding: 36px 0 28px;
+            font-size: 0.8rem;
+            color: #7a7068;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .footer-links {
+            display: flex;
+            gap: 28px;
+            list-style: none;
+        }
+        /* ----- responsive ----- */
+        @media (max-width: 1024px) {
+            .info-sections {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.1rem;
+            }
+            h2 {
+                font-size: 1.6rem;
+            }
+            .header-inner {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .main-nav ul {
+                flex-wrap: wrap;
+                gap: 14px;
+                font-size: 0.78rem;
+            }
+            .search-bar {
+                min-width: 100%;
+            }
+            .info-sections {
+                grid-template-columns: 1fr;
+                gap: 28px;
+            }
+            .cookies-content h2 {
+                font-size: 1.5rem;
+            }
+            .cookie-table th, .cookie-table td {
+                padding: 10px 12px;
+                font-size: 0.8rem;
+            }
+        }
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 18px;
+            }
+            .cookies-hero h1 {
+                font-size: 1.9rem;
+            }
+            .cookies-content .highlight-box {
+                padding: 18px 20px;
+            }
+            .cookie-table {
+                font-size: 0.75rem;
+            }
+        }
+        /* utility */
+        .hidden {
+            display: none !important;
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo" aria-label="Evolving Spaces Daily home">
+                Evolving Spaces <span>Daily</span>
+                <small>Interior · Architecture · Living</small>
+            </a>
+            <nav class="main-nav" aria-label="Primary">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="terms.html">Terms Of Privacy</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="cookies.html" class="active">Cookies Policy</a></li>
+                    <li><a href="disclaimer.html">Disclaimer</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search articles, topics…" aria-label="Search articles">
+                <button id="searchBtn" aria-label="Search">Search</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Cookies hero -->
+        <section class="cookies-hero">
+            <h1>Cookies Policy</h1>
+            <p class="last-updated">Last updated: 15 March 2025</p>
+            <p style="max-width:720px; margin-top:10px;">This policy explains how Evolving Spaces Daily uses cookies and similar tracking technologies on our website. It should be read alongside our <a href="privacy.html" style="color:var(--accent); text-decoration:underline;">Privacy Policy</a>.</p>
+        </section>
+
+        <!-- Cookies content -->
+        <div class="cookies-content">
+            <div class="highlight-box">
+                <p><strong>In short:</strong> We use essential cookies to make the site work and optional analytics cookies to understand how it's used. You can control or delete cookies through your browser settings at any time.</p>
+            </div>
+
+            <h2>1. What are cookies?</h2>
+            <p>Cookies are small text files that are placed on your computer or mobile device when you visit a website. They are widely used to make websites work efficiently, improve user experience, and provide information to site owners.</p>
+            <p>Cookies can be "persistent" (remaining on your device until they expire or you delete them) or "session" cookies (deleted when you close your browser). They can also be "first-party" (set by us) or "third-party" (set by other domains we use for services like analytics).</p>
+
+            <h2>2. How we use cookies</h2>
+            <p>We use cookies for the following purposes:</p>
+            <ul>
+                <li><strong>Essential cookies:</strong> Necessary for the website to function properly, such as remembering your cookie preferences and enabling basic navigation.</li>
+                <li><strong>Analytics cookies:</strong> Help us understand how visitors interact with the site by collecting anonymised information about pages visited, time spent, and any errors encountered. This helps us improve our content and user experience.</li>
+                <li><strong>Functionality cookies:</strong> Allow the site to remember choices you make (such as your language or region) to provide a more personalised experience. These are optional and disabled by default unless you opt in.</li>
+            </ul>
+            <p>We do <strong>not</strong> use advertising or targeting cookies on this site. We also do not sell or share your cookie data with third parties for marketing purposes.</p>
+
+            <h2>3. Specific cookies we use</h2>
+            <p>Below is a detailed list of the cookies we currently use, their purpose, and their duration.</p>
+
+            <table class="cookie-table" aria-label="List of cookies used on this site">
+                <thead>
+                    <tr>
+                        <th>Cookie name</th>
+                        <th>Type</th>
+                        <th>Purpose</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="cookie-name">es_cookie_consent</td>
+                        <td>Essential</td>
+                        <td>Stores your cookie consent preferences.</td>
+                        <td>1 year</td>
+                    </tr>
+                    <tr>
+                        <td class="cookie-name">es_session_id</td>
+                        <td>Essential</td>
+                        <td>Maintains your session while navigating the site (e.g., for form submissions).</td>
+                        <td>Session</td>
+                    </tr>
+                    <tr>
+                        <td class="cookie-name">_ga</td>
+                        <td>Analytics (third-party)</td>
+                        <td>Used by Google Analytics to distinguish unique users and track site usage. Anonymised IP.</td>
+                        <td>2 years</td>
+                    </tr>
+                    <tr>
+                        <td class="cookie-name">_gid</td>
+                        <td>Analytics (third-party)</td>
+                        <td>Used by Google Analytics to distinguish users for a shorter period.</td>
+                        <td>24 hours</td>
+                    </tr>
+                    <tr>
+                        <td class="cookie-name">es_preferences</td>
+                        <td>Functionality</td>
+                        <td>Remembers your display preferences (e.g., dark mode, if available).</td>
+                        <td>6 months</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p style="font-size:0.9rem; color:#7a7068;">Note: Third-party cookies are subject to the respective privacy policies of their providers (e.g., Google Analytics). We do not control these cookies, but we have configured them to anonymise IP addresses where possible.</p>
+
+            <h2>4. Managing your cookie preferences</h2>
+            <p>When you first visit our site, you will see a cookie banner where you can accept or decline non-essential cookies. You can also manage cookies directly through your browser settings:</p>
+            <ul>
+                <li><strong>Chrome:</strong> Settings → Privacy and security → Cookies and other site data</li>
+                <li><strong>Safari:</strong> Preferences → Privacy → Cookies and website data</li>
+                <li><strong>Firefox:</strong> Options → Privacy & Security → Cookies and Site Data</li>
+                <li><strong>Edge:</strong> Settings → Cookies and site permissions → Manage and delete cookies</li>
+            </ul>
+            <p>Please note that blocking some cookies may affect the functionality of the site. Essential cookies cannot be disabled through our consent tool as they are necessary for the site to operate.</p>
+
+            <h2>5. Do Not Track signals</h2>
+            <p>Some browsers support "Do Not Track" (DNT) signals. Our site does not currently respond to DNT signals because there is no industry standard for compliance. However, we do not track users across third-party websites for advertising purposes, and we honour cookie consent choices as described above.</p>
+
+            <h2>6. Third-party services</h2>
+            <p>We use a limited number of third-party services that may set cookies:</p>
+            <ul>
+                <li><strong>Google Analytics:</strong> For measuring site traffic and understanding user behaviour. We have enabled IP anonymisation and do not allow Google to use your data for its own purposes.</li>
+                <li><strong>Email newsletter service:</strong> If you subscribe, our email provider may use cookies to track email opens and clicks. This is governed by their privacy policy and only applies after you opt in.</li>
+            </ul>
+            <p>We do not embed social media pixels (e.g., Facebook, Twitter) or advertising trackers on our site.</p>
+
+            <h2>7. Changes to this Cookies Policy</h2>
+            <p>We may update this policy from time to time to reflect changes in technology, regulation, or our practices. Any updates will be posted on this page with a revised "last updated" date. We encourage you to review this page periodically.</p>
+
+            <h2>8. More information</h2>
+            <p>For more details about how we handle your personal data, please see our <a href="privacy.html">Privacy Policy</a>. If you have any questions about our use of cookies, you can:</p>
+            <ul>
+                <li>Email us at <a href="mailto:privacy@evolvingspacesdaily.com">privacy@evolvingspacesdaily.com</a></li>
+                <li>Use our <a href="contact.html">contact form</a></li>
+                <li>Write to us at: Evolving Spaces Daily, 47 Design Quarter, Studio 12, London, EC1V 9BX, United Kingdom</li>
+            </ul>
+            <p style="margin-top: 30px; font-style: italic; color: #8b7e74;">Thank you for reading our Cookies Policy. We're committed to transparency and giving you control over your online experience.</p>
+        </div>
+
+        <!-- Info sections (same as home) -->
+        <section class="info-sections" aria-label="Site information">
+            <div>
+                <h5>About</h5>
+                <p>Evolving Spaces Daily is an independent publication covering interior design, architecture, and the ideas that shape how we live. Founded in 2021.</p>
+            </div>
+            <div>
+                <h5>Contact</h5>
+                <p><a href="mailto:editor@evolvingspacesdaily.com">editor@evolvingspacesdaily.com</a></p>
+                <p>Pitch us: <a href="mailto:pitch@evolvingspacesdaily.com">pitch@evolvingspacesdaily.com</a></p>
+            </div>
+            <div>
+                <h5>Privacy & Terms</h5>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Use</a>
+                <a href="cookies.html">Cookie Policy</a>
+            </div>
+            <div>
+                <h5>Follow</h5>
+                <a href="#">Instagram</a>
+                <a href="#">Pinterest</a>
+                <a href="#">Newsletter</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer container">
+        <span>© 2025 Evolving Spaces Daily. All rights reserved.</span>
+        <ul class="footer-links">
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="terms.html">Terms</a></li>
+            <li><a href="cookies.html">Cookies</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </footer>
+
+    <script>
+        (function() {
+            // ---------- Search bar (same behaviour) ----------
+            const searchInput = document.getElementById('searchInput');
+            const searchBtn = document.getElementById('searchBtn');
+            if (searchBtn && searchInput) {
+                searchBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const q = searchInput.value.trim();
+                    if (q) {
+                        alert('Search for: "' + q + '" — (demo only, search is active on the home page)');
+                    } else {
+                        alert('Please enter a search term.');
+                    }
+                });
+                searchInput.addEventListener('keyup', function(e) {
+                    if (e.key === 'Enter') {
+                        e.preventDefault();
+                        searchBtn.click();
+                    }
+                });
+            }
+        })();
+    </script>
+</body>
+</html>

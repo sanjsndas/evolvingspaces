@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About — Evolving Spaces Daily</title>
+    <meta name="description" content="About Evolving Spaces Daily: independent interior design and architecture journal. Editorial mission, contributors, and values.">
+    <meta name="author" content="Evolving Spaces Editorial">
+    <link rel="canonical" href="https://www.evolvingspacesdaily.com/about.html">
+    <!-- Open Graph -->
+    <meta property="og:title" content="About — Evolving Spaces Daily">
+    <meta property="og:description" content="Independent publication on interior design, architecture, and modern living. Meet the editorial team and our mission.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.evolvingspacesdaily.com/about.html">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1200&h=630&fit=crop">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        /* ----- reset & base (consistent with homepage) ----- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        :root {
+            --ink: #1e1e1e;
+            --ink-soft: #3a3a3a;
+            --paper: #fbf9f7;
+            --paper-warm: #f5f1ec;
+            --border: #e2ddd7;
+            --accent: #9b6b4b;
+            --accent-soft: #c9ad96;
+            --serif: 'Playfair Display', Georgia, serif;
+            --sans: 'Inter', -apple-system, Helvetica, Arial, sans-serif;
+        }
+        body {
+            background: var(--paper);
+            color: var(--ink);
+            font-family: var(--sans);
+            font-size: 1rem;
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 2px;
+        }
+        a {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.15s;
+        }
+        a:hover {
+            color: var(--accent);
+        }
+        .container {
+            max-width: 1240px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        /* ----- typography ----- */
+        h1, h2, h3, h4 {
+            font-family: var(--serif);
+            font-weight: 600;
+            line-height: 1.25;
+            letter-spacing: -0.01em;
+            color: var(--ink);
+        }
+        h1 {
+            font-size: 2.8rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            line-height: 1.15;
+        }
+        h2 {
+            font-size: 1.9rem;
+            margin-bottom: 0.75rem;
+        }
+        h3 {
+            font-size: 1.4rem;
+            margin-bottom: 0.5rem;
+        }
+        h4 {
+            font-size: 1.1rem;
+            font-family: var(--sans);
+            font-weight: 600;
+            letter-spacing: 0.02em;
+        }
+        p {
+            margin-bottom: 1.25rem;
+            color: var(--ink-soft);
+        }
+        .meta {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: #8b7e74;
+            font-weight: 500;
+        }
+        .category-tag {
+            display: inline-block;
+            background: var(--paper-warm);
+            padding: 4px 12px;
+            border-radius: 30px;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-weight: 600;
+            color: var(--accent);
+            border: 1px solid var(--border);
+        }
+        /* ----- header (exact copy from homepage) ----- */
+        .site-header {
+            padding: 28px 0 20px;
+            border-bottom: 1px solid var(--border);
+            background: var(--paper);
+        }
+        .header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .logo {
+            font-family: var(--serif);
+            font-size: 1.9rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: var(--ink);
+            line-height: 1.1;
+        }
+        .logo span {
+            font-style: italic;
+            font-weight: 400;
+            color: var(--accent);
+        }
+        .logo small {
+            display: block;
+            font-family: var(--sans);
+            font-size: 0.7rem;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            color: #8b7e74;
+            font-weight: 400;
+            margin-top: 2px;
+        }
+        .main-nav ul {
+            display: flex;
+            gap: 28px;
+            list-style: none;
+            font-size: 0.85rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+        }
+        .main-nav a {
+            color: var(--ink-soft);
+            padding-bottom: 4px;
+            border-bottom: 2px solid transparent;
+        }
+        .main-nav a:hover,
+        .main-nav a.active {
+            color: var(--ink);
+            border-bottom-color: var(--accent);
+        }
+        .search-bar {
+            display: flex;
+            align-items: center;
+            background: var(--paper-warm);
+            border-radius: 40px;
+            padding: 4px 4px 4px 20px;
+            border: 1px solid var(--border);
+            min-width: 240px;
+        }
+        .search-bar input {
+            border: none;
+            background: transparent;
+            padding: 8px 0;
+            font-family: var(--sans);
+            font-size: 0.85rem;
+            outline: none;
+            width: 100%;
+            color: var(--ink);
+        }
+        .search-bar button {
+            background: var(--ink);
+            color: #fff;
+            border: none;
+            border-radius: 40px;
+            padding: 8px 16px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.04em;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .search-bar button:hover {
+            background: var(--accent);
+        }
+        /* ----- about page specifics ----- */
+        .about-hero {
+            background: var(--paper-warm);
+            border-radius: 4px;
+            border: 1px solid var(--border);
+            padding: 48px 52px;
+            margin: 48px 0 48px;
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            gap: 48px;
+            align-items: center;
+        }
+        .about-hero h1 {
+            font-size: 2.7rem;
+            margin-bottom: 16px;
+        }
+        .about-hero p {
+            font-size: 1.1rem;
+            color: #3f3832;
+            margin-bottom: 0;
+        }
+        .about-hero img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 2px;
+        }
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin: 56px 0;
+        }
+        .about-block {
+            background: #fff;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            padding: 36px 34px;
+        }
+        .about-block h2 {
+            font-size: 1.7rem;
+            margin-bottom: 18px;
+        }
+        .about-block p:last-child {
+            margin-bottom: 0;
+        }
+        .values-list {
+            list-style: none;
+            margin-top: 12px;
+        }
+        .values-list li {
+            padding: 10px 0 10px 28px;
+            border-bottom: 1px solid var(--border);
+            position: relative;
+            font-size: 0.98rem;
+            color: var(--ink-soft);
+        }
+        .values-list li:last-child {
+            border-bottom: none;
+        }
+        .values-list li::before {
+            content: "—";
+            position: absolute;
+            left: 0;
+            color: var(--accent);
+            font-weight: 600;
+        }
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+            margin: 40px 0 20px;
+        }
+        .team-card {
+            text-align: center;
+            background: #fff;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            padding: 32px 24px 28px;
+        }
+        .team-card img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 18px;
+        }
+        .team-card h4 {
+            font-family: var(--serif);
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        .team-card .role {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--accent);
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .team-card p {
+            font-size: 0.9rem;
+            margin-bottom: 0;
+        }
+        .mission-statement {
+            background: var(--paper-warm);
+            border-left: 6px solid var(--accent);
+            padding: 32px 40px;
+            margin: 40px 0 48px;
+            border-radius: 2px;
+            font-family: var(--serif);
+            font-size: 1.25rem;
+            font-style: italic;
+            color: #3a322b;
+        }
+        .info-sections {
+            border-top: 1px solid var(--border);
+            padding: 48px 0 40px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 32px;
+            font-size: 0.85rem;
+        }
+        .info-sections h5 {
+            font-family: var(--sans);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            font-size: 0.75rem;
+            color: var(--ink);
+            margin-bottom: 16px;
+        }
+        .info-sections p, .info-sections a {
+            color: #5a524b;
+            line-height: 1.6;
+            display: block;
+            margin-bottom: 8px;
+        }
+        .info-sections a:hover {
+            color: var(--accent);
+        }
+        .site-footer {
+            border-top: 1px solid var(--border);
+            padding: 36px 0 28px;
+            font-size: 0.8rem;
+            color: #7a7068;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .footer-links {
+            display: flex;
+            gap: 28px;
+            list-style: none;
+        }
+        /* ----- responsive ----- */
+        @media (max-width: 1024px) {
+            .about-hero {
+                grid-template-columns: 1fr;
+                padding: 32px;
+                gap: 32px;
+            }
+            .about-hero img {
+                height: 240px;
+            }
+            .about-grid {
+                grid-template-columns: 1fr;
+                gap: 28px;
+            }
+            .team-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .info-sections {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.1rem;
+            }
+            h2 {
+                font-size: 1.6rem;
+            }
+            .header-inner {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .main-nav ul {
+                flex-wrap: wrap;
+                gap: 14px;
+                font-size: 0.78rem;
+            }
+            .search-bar {
+                min-width: 100%;
+            }
+            .team-grid {
+                grid-template-columns: 1fr;
+            }
+            .info-sections {
+                grid-template-columns: 1fr;
+                gap: 28px;
+            }
+            .about-hero {
+                padding: 24px;
+                margin: 32px 0;
+            }
+            .about-hero h1 {
+                font-size: 2rem;
+            }
+            .mission-statement {
+                padding: 24px 28px;
+                font-size: 1.1rem;
+            }
+        }
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 18px;
+            }
+            .about-block {
+                padding: 26px 22px;
+            }
+        }
+        .hidden {
+            display: none !important;
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo" aria-label="Evolving Spaces Daily home">
+                Evolving Spaces <span>Daily</span>
+                <small>Interior · Architecture · Living</small>
+            </a>
+            <nav class="main-nav" aria-label="Primary">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="terms.html">Terms Of Privacy</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="cookies.html">Cookies Policy</a></li>
+                    <li><a href="disclaimer.html">Disclaimer</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search articles, topics…" aria-label="Search articles">
+                <button id="searchBtn" aria-label="Search">Search</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Hero: mission statement -->
+        <section class="about-hero">
+            <div>
+                <span class="category-tag" style="margin-bottom: 16px; display: inline-block;">About us</span>
+                <h1>Design journalism for the thoughtful home</h1>
+                <p>Evolving Spaces Daily is an independent publication covering interior design, architecture, and the ideas that shape how we live. We publish practical, researched articles — no fluff, no trends for trends' sake.</p>
+            </div>
+            <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&h=600&fit=crop" alt="Editorial desk with architectural drawings, material samples, and a laptop">
+        </section>
+
+        <!-- Mission + values grid -->
+        <div class="about-grid">
+            <div class="about-block">
+                <h2>Our mission</h2>
+                <p>We believe that good design is accessible, not exclusive. Every article we publish aims to demystify the built environment — from the physics of passive heating to the psychology of negative space. We work with architects, designers, and journalists who share our commitment to clarity and rigour.</p>
+                <p>Founded in 2021, Evolving Spaces Daily has grown into a trusted resource for homeowners, design professionals, and anyone who wants to understand the spaces they inhabit.</p>
+                <div class="mission-statement" style="margin-top: 24px; font-size: 1.1rem; padding: 24px 28px;">
+                    “We don't chase trends. We explain the principles behind them — and when a trend is worth following.”
+                </div>
+            </div>
+            <div class="about-block">
+                <h2>What guides us</h2>
+                <p>Our editorial values are simple: specificity over vagueness, evidence over opinion, and design that serves people and planet.</p>
+                <ul class="values-list">
+                    <li><strong>Rigour</strong> — every claim is checked, every material compared.</li>
+                    <li><strong>Clarity</strong> — we write for curious non-experts and seasoned professionals alike.</li>
+                    <li><strong>Responsibility</strong> — we highlight sustainable materials, passive strategies, and long-life design.</li>
+                    <li><strong>Independence</strong> — no sponsored content disguised as editorial. Ever.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Team section -->
+        <h2 style="font-size: 2rem; margin: 64px 0 8px;">Editorial team</h2>
+        <p style="font-size: 1.05rem; max-width: 680px; margin-bottom: 24px;">A small, dedicated group of writers, designers, and researchers. We also work with a network of contributing architects and journalists.</p>
+        <div class="team-grid">
+            <div class="team-card">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&h=200&fit=crop&crop=face" alt="Portrait of Clara Wynn, Editor-in-Chief">
+                <h4>Clara Wynn</h4>
+                <div class="role">Editor-in-Chief</div>
+                <p>Former architecture editor at a national design magazine. Clara oversees editorial strategy and writes about spatial planning and urban living.</p>
+            </div>
+            <div class="team-card">
+                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&h=200&fit=crop&crop=face" alt="Portrait of Elena Marchetti, Senior Editor">
+                <h4>Elena Marchetti</h4>
+                <div class="role">Senior Editor, Materials & Architecture</div>
+                <p>Elena covers material innovation, sustainable building, and the intersection of craft and industry. She holds a degree in structural engineering.</p>
+            </div>
+            <div class="team-card">
+                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=face" alt="Portrait of Marcus Chen, Contributing Editor">
+                <h4>Marcus Chen</h4>
+                <div class="role">Contributing Editor, Lighting & Interiors</div>
+                <p>Marcus is a lighting designer and writer. He explores how light shapes mood, function, and well-being in residential spaces.</p>
+            </div>
+        </div>
+
+        <!-- Additional contributors -->
+        <div class="about-grid" style="margin-top: 24px;">
+            <div class="about-block">
+                <h2>Contributors</h2>
+                <p>We work with a carefully selected group of freelance journalists, architects, and designers. Regular contributors include:</p>
+                <ul class="values-list" style="margin-top: 8px;">
+                    <li><strong>Sofia Lindqvist</strong> — architecture, passive house, Nordic design</li>
+                    <li><strong>Aisha Rahman</strong> — small spaces, storage, interior styling</li>
+                    <li><strong>James Okonkwo</strong> — urbanism, adaptive reuse, community housing</li>
+                    <li><strong>Lena Fischer</strong> — color theory, textiles, material culture</li>
+                </ul>
+            </div>
+            <div class="about-block">
+                <h2>Editorial independence</h2>
+                <p>Evolving Spaces Daily is reader-supported. We do not accept payment for coverage, and we clearly label any sponsored content (which is rare). Our recommendations are based on research and firsthand testing — never on advertising relationships.</p>
+                <p>We are a member of the Independent Design Media Alliance and adhere to its code of ethics.</p>
+                <p style="margin-top: 16px;"><a href="#" style="font-weight: 600; color: var(--accent);">Read our full editorial policy →</a></p>
+            </div>
+        </div>
+
+        <!-- Newsletter (same as homepage) -->
+        <section class="newsletter" style="background: var(--paper-warm); border: 1px solid var(--border); border-radius: 4px; padding: 44px 48px; margin: 48px 0 56px; display: flex; justify-content: space-between; align-items: center; gap: 40px;">
+            <div>
+                <h3 style="font-size: 1.6rem; margin-bottom: 6px;">The Sunday Edit</h3>
+                <p style="margin-bottom: 0; font-size: 0.95rem;">A weekly digest of our best articles, plus one practical design idea. No spam, ever.</p>
+            </div>
+            <form class="newsletter-form" id="newsletterForm" onsubmit="event.preventDefault(); alert('Thank you for subscribing — check your inbox for a confirmation.');" style="display: flex; gap: 10px; flex-shrink: 0;">
+                <input type="email" placeholder="Your email address" required aria-label="Email address" style="padding: 14px 18px; border: 1px solid var(--border); border-radius: 40px; font-family: var(--sans); font-size: 0.9rem; width: 240px; outline: none; background: #fff;">
+                <button type="submit" style="background: var(--ink); color: #fff; border: none; border-radius: 40px; padding: 0 28px; font-weight: 600; font-size: 0.85rem; cursor: pointer; transition: background 0.2s;">Subscribe</button>
+            </form>
+        </section>
+
+        <!-- Info sections (same as homepage) -->
+        <section class="info-sections" aria-label="Site information">
+            <div>
+                <h5>About</h5>
+                <p>Evolving Spaces Daily is an independent publication covering interior design, architecture, and the ideas that shape how we live. Founded in 2021.</p>
+            </div>
+            <div>
+                <h5>Contact</h5>
+                <p><a href="mailto:editor@evolvingspacesdaily.com">editor@evolvingspacesdaily.com</a></p>
+                <p>Pitch us: <a href="mailto:pitch@evolvingspacesdaily.com">pitch@evolvingspacesdaily.com</a></p>
+            </div>
+            <div>
+                <h5>Privacy & Terms</h5>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Cookie Policy</a>
+            </div>
+            <div>
+                <h5>Follow</h5>
+                <a href="#">Instagram</a>
+                <a href="#">Pinterest</a>
+                <a href="#">Newsletter</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer container">
+        <span>© 2025 Evolving Spaces Daily. All rights reserved.</span>
+        <ul class="footer-links">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Cookies</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </footer>
+
+    <script>
+        // Simple search placeholder (no article filtering on about page)
+        document.getElementById('searchBtn').addEventListener('click', function(e) {
+            e.preventDefault();
+            alert('Search is available on the homepage. Redirecting you there.');
+            window.location.href = 'index.html';
+        });
+        document.getElementById('searchInput').addEventListener('keyup', function(e) {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                alert('Search is available on the homepage. Redirecting you there.');
+                window.location.href = 'index.html';
+            }
+        });
+    </script>
+</body>
+</html>
